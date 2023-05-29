@@ -6,7 +6,7 @@
     $name = $_POST['name'];
 
     if($con){
-        $sql = "SELECT * FROM usr_info WHERE user_name='$user_name'";
+        $sql = "SELECT * FROM user_info WHERE user_name='$user_name'";
         $result = mysqli_query($con, $sql);
         if(mysqli_num_rows($result) > 0){
             $status = "OK";
