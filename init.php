@@ -2,6 +2,6 @@
     $user = "root"; 
     $pass = "";
     $db = "aplikasikita";
-    $hostname = "localhost"
+    $hostname = "localhost";
     $con = mysqli_connect($hostname, $user, $pass, $db);
 ?>
