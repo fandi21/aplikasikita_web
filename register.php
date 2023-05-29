@@ -23,5 +23,8 @@
                 echo json_encode(array('status'=>$status), JSON_FORCE_OBJECT);
             }
         }
+    }else{
+        $status = "Failed";
+        echo json_encode(array('status'=>$status), JSON_FORCE_OBJECT);
     }
 ?>
